@@ -4,13 +4,10 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-ReactDOM.render( <
-    React.StrictMode >
-    <
-    App / >
-    <
-    p > teste < /p> <
-    /React.StrictMode>,
+ReactDOM.render( <React.StrictMode >
+    <App />
+    <p> teste </p> 
+    </React.StrictMode>,
 
     document.getElementById('root')
 );
